@@ -1,3 +1,5 @@
 <h1>Assignment of DotNet class</h1>
-<li>CRUD using AdoDotNet</li>
-<li>CRUD using Dapper and EFCore</li>
+<li>
+<ul>CRUD using AdoDotNet</ul>
+<ul>CRUD using Dapper and EFCore</ul>
+</li>
