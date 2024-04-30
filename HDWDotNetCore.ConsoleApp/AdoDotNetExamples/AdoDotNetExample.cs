@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection.Metadata;
 
-namespace HDWDotNetCore.ConsoleApp
+namespace HDWDotNetCore.ConsoleApp.AdoDotNetExamples
 {
     internal class AdoDotNetExample
     {
@@ -20,7 +20,7 @@ namespace HDWDotNetCore.ConsoleApp
             Password = "sa@123",
         };
         public void Read()
-        {   
+        {
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
 
             connection.Open();
@@ -57,7 +57,7 @@ namespace HDWDotNetCore.ConsoleApp
             (@BlogTitle
             ,@BlogAuthor,@BlogContent)";
             SqlCommand cmd = new SqlCommand(query, connection);
-       
+
             cmd.Parameters.AddWithValue("@BlogTitle", title);
             cmd.Parameters.AddWithValue("@BlogAuthor", author);
             cmd.Parameters.AddWithValue("@BlogContent", content);
@@ -77,7 +77,7 @@ namespace HDWDotNetCore.ConsoleApp
              ,[BlogAuthor] = @BlogAuthor
                 ,[BlogContent] = @BlogContent
             WHERE BlogId = @BlogId";
-            
+
             SqlCommand cmd = new SqlCommand(query, connection);
             cmd.Parameters.AddWithValue("@BlogId", id);
             cmd.Parameters.AddWithValue("@BlogTitle", title);
@@ -99,7 +99,7 @@ namespace HDWDotNetCore.ConsoleApp
 
             SqlCommand cmd = new SqlCommand(query, connection);
             cmd.Parameters.AddWithValue("@BlogId", id);
-         
+
             int result = cmd.ExecuteNonQuery();
             connection.Close();
 
@@ -134,7 +134,7 @@ namespace HDWDotNetCore.ConsoleApp
                 Console.WriteLine("Blog Content is " + dr["BlogContent"]);
                 Console.WriteLine("------------------------------------");
             }
-            
+
 
         }
     }
