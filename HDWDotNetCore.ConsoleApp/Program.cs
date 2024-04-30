@@ -9,5 +9,5 @@ AdoDotNetExample dotnetExample = new AdoDotNetExample();
 //dotnetExample.Edit(100);
 //DapperExample dapper = new DapperExample();
 //dapper.Run();
-EFCoreExample EFCore  = new EFCoreExample();
+EFCoreExample EFCore = new EFCoreExample();
 EFCore.Run();

@@ -85,6 +85,7 @@ namespace HDWDotNetCore.ConsoleApp.EFCoreExamples
                 Console.WriteLine("No data to delete");
                 return;
             }
+
             db.Blogs.Remove(blog);
             int result = db.SaveChanges();
             string message = result > 0 ? "Deletion Successful" : "Deletion Failed";
