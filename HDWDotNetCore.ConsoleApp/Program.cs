@@ -1,5 +1,5 @@
-﻿using HDWDotNetCore.ConsoleApp;
-using HDWDotNetCore.ConsoleApp.AdoDotNetExamples;
+﻿using HDWDotNetCore.ConsoleApp.AdoDotNetExamples;
+using HDWDotNetCore.ConsoleApp.EFCoreExamples;
 
 AdoDotNetExample dotnetExample = new AdoDotNetExample();
 //dotnetExample.Read();

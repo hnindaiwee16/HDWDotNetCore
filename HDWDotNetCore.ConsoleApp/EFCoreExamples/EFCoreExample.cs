@@ -4,8 +4,9 @@ using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
+using HDWDotNetCore.ConsoleApp.Dtos;
 
-namespace HDWDotNetCore.ConsoleApp
+namespace HDWDotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class EFCoreExample
     {
@@ -61,7 +62,7 @@ namespace HDWDotNetCore.ConsoleApp
         private void Update(int id, string title, string author, string content)
         {
             var item = db.Blogs.FirstOrDefault(x => x.BlogId == id);
-            if(item is null) 
+            if (item is null)
             {
                 Console.WriteLine("No data found");
                 return;

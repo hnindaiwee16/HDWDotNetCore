@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HDWDotNetCore.ConsoleApp
+namespace HDWDotNetCore.ConsoleApp.Dtos
 {
     [Table("dotNet")]
     internal class BlogDto
