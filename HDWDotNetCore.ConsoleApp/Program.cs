@@ -7,7 +7,9 @@ AdoDotNetExample dotnetExample = new AdoDotNetExample();
 //dotnetExample.Update(2,"title2", "author2", "create2");
 //dotnetExample.Delete(3);
 //dotnetExample.Edit(100);
+
 //DapperExample dapper = new DapperExample();
 //dapper.Run();
+
 EFCoreExample EFCore = new EFCoreExample();
 EFCore.Run();
