@@ -15,6 +15,7 @@ namespace HDWDotNetCore.ConsoleApp.Services
             InitialCatalog = "DotNetTraining",
             UserID = "sa",
             Password = "sa@123",
+
             TrustServerCertificate = true
         };
     }
