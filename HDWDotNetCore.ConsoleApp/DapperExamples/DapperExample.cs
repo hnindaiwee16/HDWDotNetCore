@@ -78,6 +78,7 @@ namespace HDWDotNetCore.ConsoleApp.DapperExamples
                 BlogAuthor = author,
                 BlogContent = content
             };
+
             string query = @"UPDATE [dbo].[dotNet]
             SET [BlogTitle] = @BlogTitle
              ,[BlogAuthor] = @BlogAuthor

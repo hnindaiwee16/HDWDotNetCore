@@ -67,11 +67,11 @@ namespace HDWDotNetCoreRestAPI.Controllers
             }
             if (!String.IsNullOrEmpty(model.BlogAuthor))
             {
-                item.BlogTitle = model.BlogAuthor;
+                item.BlogAuthor = model.BlogAuthor;
             }
             if (!String.IsNullOrEmpty(model.BlogContent))
             {
-                item.BlogTitle = model.BlogContent;
+                item.BlogContent = model.BlogContent;
             }
             var result = _dbContext.SaveChanges();
             string message = result > 0 ? "Updating Successful" : "Updating Failed";
