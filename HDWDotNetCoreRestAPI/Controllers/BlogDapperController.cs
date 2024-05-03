@@ -65,12 +65,7 @@ namespace HDWDotNetCore.RestAPI.Controllers
         [HttpPatch("{id}")]
         public ActionResult Patch(int id, BlogModel model)
         {
-            var item = FindByID(id);
-            if (item is null)
-            {
-                return NotFound("No Data found to update");
-            }
-           
+                     
             string condition = string.Empty;
             if (!String.IsNullOrEmpty(model.BlogTitle))
             {
