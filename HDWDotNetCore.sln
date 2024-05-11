@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{AE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.RestAPI", "HDWDotNetCoreRestAPI\HDWDotNetCore.RestAPI.csproj", "{62EF7B6C-36FE-4DC9-92CE-913B50D6FCB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.Shared", "HDWDotNetCore.Shared\HDWDotNetCore.Shared.csproj", "{924B768A-47FE-4EC9-9E49-710F01A70C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.Shared", "HDWDotNetCore.Shared\HDWDotNetCore.Shared.csproj", "{924B768A-47FE-4EC9-9E49-710F01A70C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.RestAPIWithNLayer", "HDWDotNetCore.RestAPIWithNLayer\HDWDotNetCore.RestAPIWithNLayer.csproj", "{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{924B768A-47FE-4EC9-9E49-710F01A70C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{924B768A-47FE-4EC9-9E49-710F01A70C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{924B768A-47FE-4EC9-9E49-710F01A70C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,4 @@
-﻿using HDWDotNetCore.ConsoleApp.Services;
-using HDWDotNetCoreRestAPI.Models;
+﻿using HDWDotNetCoreRestAPI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;

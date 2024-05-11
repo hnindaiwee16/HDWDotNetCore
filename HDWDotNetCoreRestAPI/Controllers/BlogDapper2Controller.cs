@@ -1,5 +1,4 @@
 ﻿using Dapper;
-using HDWDotNetCore.ConsoleApp.Services;
 using HDWDotNetCore.Shared;
 using HDWDotNetCoreRestAPI.Models;
 using Microsoft.AspNetCore.Http;

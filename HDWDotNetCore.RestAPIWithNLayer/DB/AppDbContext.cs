@@ -1,11 +1,7 @@
-﻿using HDWDotNetCore.RestAPI;
-using HDWDotNetCoreRestAPI.Models;
-using Microsoft.EntityFrameworkCore;
-
-
-namespace HDWDotNetCoreRestAPI.Db
+﻿
+namespace HDWDotNetCore.RestAPIWithNLayer.DB
 {
-    public class AppDbContext : DbContext
+    internal class AppDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
