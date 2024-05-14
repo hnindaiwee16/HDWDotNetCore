@@ -16,7 +16,7 @@ namespace HDWDotNetCore.RestAPIWithNLayer.Features.IncompatibleFood
             return model!;
         }
         [HttpGet]
-        public async Task<IActionResult> Questions()
+        public async Task<IActionResult> IncompatibleFood()
         {
             var model = await GetDataAsync();
             return Ok(model);
