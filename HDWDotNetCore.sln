@@ -14,7 +14,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.RestAPI", "HD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.Shared", "HDWDotNetCore.Shared\HDWDotNetCore.Shared.csproj", "{924B768A-47FE-4EC9-9E49-710F01A70C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.RestAPIWithNLayer", "HDWDotNetCore.RestAPIWithNLayer\HDWDotNetCore.RestAPIWithNLayer.csproj", "{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.RestAPIWithNLayer", "HDWDotNetCore.RestAPIWithNLayer\HDWDotNetCore.RestAPIWithNLayer.csproj", "{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.ConsoleAppHttpClientExamples", "HDWDotNetCore.ConsoleAppClientExamples\HDWDotNetCore.ConsoleAppHttpClientExamples.csproj", "{76FC5394-3C16-44DF-8EDE-62E76ECFC399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.ConsoleAppRestClientExamples", "HDWDotNetCore.ConsoleAppRestClientExamples\HDWDotNetCore.ConsoleAppRestClientExamples.csproj", "{3DD62459-16CA-4D43-A154-CF78CDF673AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +42,14 @@ Global
 		{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B32CCCC4-AF0F-4EFE-A3C9-AD71DFB7BA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FC5394-3C16-44DF-8EDE-62E76ECFC399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FC5394-3C16-44DF-8EDE-62E76ECFC399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FC5394-3C16-44DF-8EDE-62E76ECFC399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FC5394-3C16-44DF-8EDE-62E76ECFC399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD62459-16CA-4D43-A154-CF78CDF673AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD62459-16CA-4D43-A154-CF78CDF673AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD62459-16CA-4D43-A154-CF78CDF673AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD62459-16CA-4D43-A154-CF78CDF673AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
