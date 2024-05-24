@@ -14,7 +14,7 @@ namespace HDWDotNetCore.Shared
         public List<M>Query<M>(string query, object? param = null)
         {
             using IDbConnection db = new SqlConnection(_connectionString);
-            var lst = db.Query<M>(query).ToList();
+            var lst = db.Query<M>(query, param).ToList();
             return lst;
         }
         public M QueryFirstOrDefault<M>(string query, object? param = null)
