@@ -18,7 +18,7 @@ namespace HDWDotNetCore.RestAPIWithNLayer.Features.Blog
         public ActionResult Get()
         {
             var lst = _bl_Blog.GetBlog();
-            return Ok("Blog2 ");
+            return Ok(lst);
         }
         [HttpGet("{id}")]
         public ActionResult Edit(int id)

@@ -20,7 +20,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.ConsoleAppHtt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.ConsoleAppRestClientExamples", "HDWDotNetCore.ConsoleAppRestClientExamples\HDWDotNetCore.ConsoleAppRestClientExamples.csproj", "{3DD62459-16CA-4D43-A154-CF78CDF673AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.PizzaAPI", "HDWDotNetCore.PizzaAPI\HDWDotNetCore.PizzaAPI.csproj", "{6CBCCCA9-B382-4AEA-B2F8-3BDF34E358CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.PizzaAPI", "HDWDotNetCore.PizzaAPI\HDWDotNetCore.PizzaAPI.csproj", "{6CBCCCA9-B382-4AEA-B2F8-3BDF34E358CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.ConsoleAppRefitExamples", "HDWDotNetCore.ConsoleAppRefitExamples\HDWDotNetCore.ConsoleAppRefitExamples.csproj", "{470852B8-671E-43D8-8EAC-E094AF382464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{6CBCCCA9-B382-4AEA-B2F8-3BDF34E358CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CBCCCA9-B382-4AEA-B2F8-3BDF34E358CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CBCCCA9-B382-4AEA-B2F8-3BDF34E358CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470852B8-671E-43D8-8EAC-E094AF382464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470852B8-671E-43D8-8EAC-E094AF382464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470852B8-671E-43D8-8EAC-E094AF382464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470852B8-671E-43D8-8EAC-E094AF382464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
