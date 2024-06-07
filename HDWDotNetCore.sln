@@ -24,7 +24,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.PizzaAPI", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.ConsoleAppRefitExamples", "HDWDotNetCore.ConsoleAppRefitExamples\HDWDotNetCore.ConsoleAppRefitExamples.csproj", "{470852B8-671E-43D8-8EAC-E094AF382464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.WinFormsApp", "HDWDotNetCore.WinFormsApp\HDWDotNetCore.WinFormsApp.csproj", "{0FC08818-A99C-42C5-9ED4-A13BD8B85EDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDWDotNetCore.WinFormsApp", "HDWDotNetCore.WinFormsApp\HDWDotNetCore.WinFormsApp.csproj", "{0FC08818-A99C-42C5-9ED4-A13BD8B85EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.NLayerUI", "HDWDotNetCore.NLayerArchitectureUI\HDWDotNetCore.NLayerUI.csproj", "{28FE7073-0EAA-4036-BE67-67BD9C4B82A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.BusinessLogic", "HDWDotNetCore.BusinessLogic\HDWDotNetCore.BusinessLogic.csproj", "{AA4DA511-1016-4664-B6F0-18FA38F4DFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDWDotNetCore.NLayer.DataAccess", "HDWDotNetCore.DataAccess\HDWDotNetCore.NLayer.DataAccess.csproj", "{DDB1D28E-E5B6-4180-BDD5-7AC586FA1D8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +74,18 @@ Global
 		{0FC08818-A99C-42C5-9ED4-A13BD8B85EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC08818-A99C-42C5-9ED4-A13BD8B85EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC08818-A99C-42C5-9ED4-A13BD8B85EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FE7073-0EAA-4036-BE67-67BD9C4B82A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FE7073-0EAA-4036-BE67-67BD9C4B82A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FE7073-0EAA-4036-BE67-67BD9C4B82A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FE7073-0EAA-4036-BE67-67BD9C4B82A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4DA511-1016-4664-B6F0-18FA38F4DFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4DA511-1016-4664-B6F0-18FA38F4DFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4DA511-1016-4664-B6F0-18FA38F4DFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4DA511-1016-4664-B6F0-18FA38F4DFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB1D28E-E5B6-4180-BDD5-7AC586FA1D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB1D28E-E5B6-4180-BDD5-7AC586FA1D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB1D28E-E5B6-4180-BDD5-7AC586FA1D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB1D28E-E5B6-4180-BDD5-7AC586FA1D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
